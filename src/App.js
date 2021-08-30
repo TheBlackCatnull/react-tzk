@@ -1,27 +1,36 @@
 import "./App.css";
-import img1 from "./1.jpg";
-import img2 from "./2.jpg";
+
+import img3 from "./img/3.jpg";
+import img4 from "./img/4.jpg";
+import img5 from "./img/5.jpg";
+import img6 from "./img/6.jpg";
+import img7 from "./img/7.jpg";
+import img8 from "./img/8.jpg";
 import useDraggable from "./useDraggable";
 const list = [
   {
-    src: img1,
-    title: "万事屋找我",
+    src: img3,
+    title: "自来也",
   },
   {
-    title: "吃吃吃……",
-    src: img2,
+    title: "雏田",
+    src: img4,
   },
   {
-    title: "赛博朋克",
-    src: img1,
+    title: "鸣人",
+    src: img5,
   },
   {
-    title: "爱大大大",
-    src: img2,
+    title: "迪达拉",
+    src: img6,
   },
   {
-    title: "汪汪",
-    src: "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=968093909,4033932240&fm=26&gp=0.jpg",
+    title: "卡卡西",
+    src: img7,
+  },
+  {
+    title: "小樱",
+    src: img8,
   },
 ];
 function App() {
